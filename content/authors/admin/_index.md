@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Haizhou Zhao
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Haizhou
+last_name: Zhao
 
 # Status emoji
 status:
@@ -14,34 +14,27 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Research Engineer / Co-Founder
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
-
+  - name: ARX Robotics
+  - name: 方舟无限（北京）
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Robotics engineer. Interested in optimal control, bionic mechanical design and reinforcement learning.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Optimal Control
+  - Bionic Mechanical Design
+  - Reinforcement Learning
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BEng in Mechatronics and Robotic Systems
+      institution: Xi'an Jiaotong-Liverpool University (XJTLU)
+      year: 2023
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -50,22 +43,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: mailto:haizhou_zhao@outlook.com
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/haizhou_zhao
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -80,5 +64,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Haizhou Zhao is now a research engineer of ARX Robotics, a Chinese robot startup building advanced robot systems for researchers. Before that, he was an undergraduate researcher in XJTLU Robotics Laboratory, working on variable stiffness actuators, optimal control and robotics supervised by Dr. Yuqing Chen. In the last year of his undergraduate, he worked in Tsinghua AIR DISCOVER Lab as a research intern for bipedal robot development. After graduated from XJTLU, he and other co-founders started ARX Robotics.
 {style="text-align: justify;"}
