@@ -21,8 +21,8 @@ url_video: ''
 Starting from 2022 summer, I worked in Tsinghua AIR as a research intern on bipedal control with Yufei Jia (Tsinghua undergraduate, now a PhD student), and responsible for the controller design, simulation and sim2real. The ARX6 (AIR) robot is a bipedal robot with 8 DoF (no hip yaw joint) and line foot contact. The robot is controlled initially by the HZD gait library (planned using FROST by Yufei) and WBIC (an C++ implementation of https://arxiv.org/abs/1807.01222).
 # HZD + WBIC
 The demonstration of the HZD+WBIC controller is shown in the following video:
-<video width="320" height="240" controls>
+<video preload="auto" width="320" height="240" controls>
   <source
-    src="/content/project/air_bipedal/hzd_sim.mp4"
+    src="/project/air_bipedal/hzd_sim.mp4"
     type="video/mp4">
 </video>
