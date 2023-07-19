@@ -19,10 +19,16 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 ---
 Starting from 2022 summer, I worked in Tsinghua AIR as a research intern on bipedal control with Yufei Jia (Tsinghua undergraduate, now a PhD student), and responsible for the controller design, simulation and sim2real. The ARX6 (AIR) robot is a bipedal robot with 8 DoF (no hip yaw joint) and line foot contact. The robot is controlled initially by the HZD gait library (planned using FROST by Yufei) and WBIC (an C++ implementation of https://arxiv.org/abs/1807.01222).
+
+(**The page is permitted by Prof. Guyue Zhou, PI of AIR DISCOVER Lab.**)
 # HZD + WBIC
-The demonstration of the HZD+WBIC controller is shown in the following video:
-<video preload="auto" width="320" height="240" controls>
-  <source
-    src="/project/air_bipedal/hzd_sim.mp4"
-    type="video/mp4">
-</video>
+The following video is a simulation of HZD + WBIC in RaiSim. The three models are respectively: the gait lib reference (back), the controller robot (left front), the kinematic reference (right front) from WBIC. The limbs are heavy and the WBIC cannot make the robot fully track the gait library.
+{{< video src="hzd_sim.mp4" controls="yes">}}
+The following video shows a instable walking of the robot. 
+{{< video src="hzd_hw.mp4" controls="yes">}}
+
+The HZD+WBIC method was later deprecated and a new NMPC controller inspired by https://ieeexplore.ieee.org/document/10000244 is used.
+# NMPC
+We use OCS2 as our MPC backend. The formulation is basically the same as the one in https://ieeexplore.ieee.org/document/10000244. Due the lack of dof and the heavy limbs, the angular velocity feedback to the mpc is always set zero, and the footstep adaption is implemented as continuous dynamics (i.e., the swing foot xy linear velocity is an input) instead of a discrete input at switching. We also incorporated the foot orientation for the ground torque input. The NMPC is expected to online adjust foot placment instead of the heuristic adaption used in HZD + WBIC (PD control law of average velocity). See the simulation video:
+
+Due to some reason, the hardware experiment of the NMPC was canceled as well as the bipedal project in Tsinghua AIR.
