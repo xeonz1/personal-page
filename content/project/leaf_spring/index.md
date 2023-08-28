@@ -1,6 +1,6 @@
 ---
 title: Leaf-spring based Parallel Variable Stiffness Actuator
-summary: A variable stiffness actuator capable of online stiffness modulation to save energy and increase power.
+summary: A VSA supporting online stiffness modulation to save energy and increase joint power.
 tags:
   - MD
 date: '2022-11-01T00:00:00Z'

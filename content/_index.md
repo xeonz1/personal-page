@@ -59,7 +59,7 @@ sections:
               * Lightweight asynchronous multi-threading modularized software system for robotic control usage
               * Controller development of a bipedal robot based on: HZD offline gait library / NMPC online footstep adaptation
         - title: Undergraduate Researcher
-          company: Robotics Laboratory (Dr. Yuqing Chen), Xi'an Jiaotong-Liverpool University
+          company: Robotics Laboratory (Prof. Yuqing Chen), Xi'an Jiaotong-Liverpool University
           company_url: 'https://www.xjtlu.edu.cn/en'
           company_logo: xjtlu
           location: Suzhou, China
@@ -114,15 +114,11 @@ sections:
     id: pubs
     content:
       title: Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
       filters:
         folders:
           - publication
         exclude_featured: true
     design:
-      columns: '3'
-      # view: citation
+      columns: '2'
+      view: citation
 ---

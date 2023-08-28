@@ -64,5 +64,5 @@ email: ''
 highlight_name: true
 ---
 
-Haizhou Zhao is now a research engineer of ARX Robotics, a Chinese robot startup building advanced robot systems for researchers. Before that, he was an undergraduate researcher in XJTLU Robotics Laboratory, working on variable stiffness actuators, optimal control and robotics supervised by Dr. Yuqing Chen. In the last year of his undergraduate, he worked in Tsinghua AIR DISCOVER Lab as a research intern for bipedal robot development. After graduated from XJTLU, he and other co-founders started ARX Robotics.
+Haizhou Zhao is now a research engineer at ARX Robotics, a Chinese robotic startup building advanced robot systems for researchers. Before that, he was an undergraduate researcher at XJTLU Robotics Laboratory, working on variable stiffness actuators, optimal control, and robotics supervised by Dr. Yuqing Chen. In the last year as an undergraduate, he worked at Tsinghua AIR DISCOVER Lab as a core research intern for bipedal robot development. After graduating from XJTLU, he and other co-founders started ARX Robotics.
 {style="text-align: justify;"}

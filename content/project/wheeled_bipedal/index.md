@@ -6,7 +6,7 @@ tags:
 date: '2023-03-01'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://ieeexplore.ieee.org/document/9911086'
+external_link: 'https://arxiv.org/abs/2308.13205'
 
 url_code: ''
 url_slides: ''
