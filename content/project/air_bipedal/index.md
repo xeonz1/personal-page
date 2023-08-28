@@ -29,6 +29,7 @@ The following video shows a instable walking of the robot.
 
 The HZD+WBIC method was later deprecated and a new NMPC controller inspired by https://ieeexplore.ieee.org/document/10000244 is used.
 # NMPC
-We use OCS2 as our MPC backend. The formulation is basically the same as the one in https://ieeexplore.ieee.org/document/10000244. Due the lack of dof and the heavy limbs, the angular velocity feedback to the mpc is always set zero, and the footstep adaption is implemented as continuous dynamics (i.e., the swing foot xy linear velocity is an input) instead of a discrete input at switching. We also incorporated the foot orientation for the ground torque input. The NMPC adjust foot placments online rather than using the heuristic adaption commonly used in HZD + WBIC (PD feedback of average velocity). See the simulation video:
+We use OCS2 as our MPC backend. The formulation is basically the same as the one in https://ieeexplore.ieee.org/document/10000244. Due the lack of dof and the heavy limbs, the angular velocity feedback to the mpc is always set zero, and the footstep adaption is implemented as continuous dynamics (i.e., the swing foot xy linear velocity is an input) instead of a discrete input at switching. We also incorporated the foot orientation for the ground torque input. The NMPC adjust foot placments online rather than using the heuristic adaption commonly used in HZD + WBIC (PD feedback of average velocity). See the simulation video in which manual disturbance on the base is added:
+{{< video src="mpc_sim.mp4" controls="yes">}}
 
 Due to some reasons, the hardware experiment of the NMPC was canceled by AIR as well as the bipedal project.
