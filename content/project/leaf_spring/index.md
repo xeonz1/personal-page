@@ -6,7 +6,7 @@ tags:
 date: '2022-11-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://arxiv.org/abs/2308.13988'
 
 url_code: ''
 url_slides: ''
