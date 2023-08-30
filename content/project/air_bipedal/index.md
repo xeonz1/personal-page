@@ -22,9 +22,9 @@ Starting from 2022 summer, I worked in Tsinghua AIR as a research intern on bipe
 
 (**The page is permitted by Prof. Guyue Zhou, PI of AIR DISCOVER Lab.**)
 # HZD + WBIC
-The following video is a simulation of HZD + WBIC in RaiSim. The three models are respectively: the gait lib reference (back), the controller robot (left front), the kinematic reference (right front) from WBIC. The limbs are heavy and the WBIC cannot make the robot fully track the gait library.
+The following video is a simulation of HZD + WBIC in RaiSim. The three models are respectively: the gait lib reference (back), the controller robot (left front), the kinematic reference (right front) from WBIC. The limbs are heavy and the WBIC cannot make the robot fully track the gait library reference.
 {{< video src="hzd_sim.mp4" controls="yes">}}
-The following video shows a instable walking of the robot. 
+The following video shows an unstable walking of the robot. 
 {{< video src="hzd_hw.mp4" controls="yes">}}
 
 The HZD+WBIC method was later deprecated and a new NMPC controller inspired by https://ieeexplore.ieee.org/document/10000244 is used.
