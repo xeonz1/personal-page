@@ -32,8 +32,8 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BEng in Mechatronics and Robotic Systems
-      institution: Xi'an Jiaotong-Liverpool University (XJTLU)
+    - course: BEng in Mechatronics and Robotic Systems (First Class)
+      institution: Xi'an Jiaotong-Liverpool University (XJTLU) & University of Liverpool
       year: 2023
 
 # Social/Academic Networking
