@@ -50,7 +50,7 @@ sections:
               Controller design and hardware implementation of a miniature bipedal robot (ARX-6M)
         - title: Research Intern (Core member)
           company: DISCOVER Lab (Prof. Guyue Zhou), Institute for AI Industry Research (AIR), Tsinghua University
-          company_url: 'https://air.tsinghua.edu.cn/en/'
+          company_url: 'https://air.tsinghua.edu.cn/en/info/1046/1196.htm'
           company_logo: air
           location: Beijing, China
           date_start: '2022-05-01'
@@ -60,7 +60,7 @@ sections:
               * Controller development of a bipedal robot based on: HZD offline gait library / NMPC online footstep adaptation
         - title: Undergraduate Researcher
           company: Robotics Laboratory (Prof. Yuqing Chen), Xi'an Jiaotong-Liverpool University
-          company_url: 'https://www.xjtlu.edu.cn/en'
+          company_url: 'https://www.xjtlu.edu.cn/en/staff-details/staff/yuqing-chen'
           company_logo: xjtlu
           location: Suzhou, China
           date_start: '2021-04-01'
