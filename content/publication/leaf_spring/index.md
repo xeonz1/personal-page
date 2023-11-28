@@ -18,7 +18,7 @@ publishDate: "2022-09-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv preprint (Submitted to IEEE TMECH)*"
+publication: "*arXiv preprint (Submitted to IEEE TMECH, Under Review)*"
 publication_short: ""
 
 abstract: The legged robots with variable stiffness actuators (VSAs) can achieve energy-efficient and versatile locomotion. However, equipping legged robots with VSAs in real-world applications is usually restricted by (i) the redundant mechanical structure design, (ii) limited stiffness variation range and speed, and (iii) high energy consumption in stiffness modulation. In this paper, we present a novel Variable-Length Leaf-Spring Actuator (VLLSA) in legged robots that aims to address the aforementioned limitations. The design is based on a leaf-spring mechanism and we improve the structural design to make the proposed VSA (i) compact and lightweight in mechanical structure, (ii) precise in theoretical modeling, and (iii) capable of modulating stiffness with a wide range, fast speed, and low energy consumption. Hardware experiments validate that the legged robot equipped with the proposed VLLSA has a compact structure, high dynamic performance, and low energy consumption.
