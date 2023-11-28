@@ -70,7 +70,7 @@ sections:
               * Robot hardware design and control
               * Variable stiffness actuator (VSA) design
         - title: Electronic Control Group Tech Leader
-          company: XJTLU DJI RoboMaster Team (Prof. Chun Zhao), GMaster
+          company: XJTLU DJI RoboMaster Team (Prof. Chun Zhao & Prof Quan Zhang), GMaster
           company_url: ''
           company_logo: gmaster
           location: Suzhou, China
